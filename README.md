@@ -18,10 +18,10 @@ Install plugins in nvim:
 :Lazy
 ```
 To install:
-press shift + i
+press ```shift + i```
 
 To update:
-press shift + u
+press ```shift + u```
 
 Look over both lua mapping files
 
