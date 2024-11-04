@@ -5,7 +5,7 @@ Neovim config with debugger and cpp support
 # Setup
 Install with this command
 ```
-git clone https://github.com/Buffer-Overflow-c/nvim_config ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/Winchendon-Technology/nvim_config ~/.config/nvim --depth 1 && nvim
 ```
 
 open neovim using the nvim command
