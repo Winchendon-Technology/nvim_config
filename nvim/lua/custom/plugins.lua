@@ -1,4 +1,11 @@
 local plugins = {
+ {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = "nvim-tree/nvim-web-devicons",
+    config = function ()
+      return require "custom.configs.nvim-tree"
+    end
+  },
   {
         "folke/trouble.nvim",
         opts = {},
@@ -6,7 +13,7 @@ local plugins = {
   {
     "rmagatti/auto-session",
     config = function()
-      return require "custom.configs.auto-session"
+      return require "custom.configs.auto-session"    
     end
   },
   {
